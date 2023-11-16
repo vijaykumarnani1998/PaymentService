@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "stripe.key",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.key'"
+  },
+  {
+    "name": "stripe.key",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.key'"
+  }
+]}

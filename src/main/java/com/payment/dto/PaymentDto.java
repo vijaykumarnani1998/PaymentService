@@ -2,12 +2,11 @@ package com.payment.dto;
 
 import java.time.LocalDateTime;
 
-import org.hibernate.annotations.CreationTimestamp;
+
 
 import com.payment.entity.PaymentStatus;
 
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,8 +20,8 @@ public class PaymentDto {
 	private Integer paymentId;
 	private  Integer bookingId;
 	private  Integer paymentAmount;
-	@CreationTimestamp
+	//@CreationTimestamp  // Optional
 	private LocalDateTime paymentTime;
-	@Enumerated(EnumType.STRING)
+//	@Enumerated(EnumType.STRING) //Optional
 	private PaymentStatus paymentStatus;
 }
